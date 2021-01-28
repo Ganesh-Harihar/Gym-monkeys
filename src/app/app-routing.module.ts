@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { environment } from 'src/environments/environment';
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './shared/404.component';
+import { AuthComponent } from './auth/auth.component';
 
 const routes: Routes = [
   {
@@ -19,6 +20,16 @@ const routes: Routes = [
         loadChildren: () => import('src/app/home/home.module').then(m => m.HomeModule)
       }
     ]
+  },
+  {
+    path: 'auth',
+    component: AuthComponent,
+    children: [
+      {
+        path: '',
+        loadChildren: 'src/app/auth/auth.module#AuthModule',
+      },
+    ],
   },
   {
     path: '**',

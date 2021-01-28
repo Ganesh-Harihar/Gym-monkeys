@@ -1,0 +1,35 @@
+
+<section class="register-section spad">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="register-text">
+          <div class="section-title">
+            <h2>Login</h2>
+            <p>The First 7 Day Trial Is Completely Free With The Teacher</p>
+          </div>
+          <form action="#" class="register-form">
+            <div class="row">
+              <div class="col-lg-6">
+                <label for="email">email*</label>
+                <input type="text" id="email">
+              </div>
+              <div class="col-lg-6">
+                <label for="password">Password*</label>
+                <input type="password" id="password">
+              </div>
+            </div>
+            <button type="submit" class="register-btn">Login</button>
+            <button type="submit" class="register-btn ml-4" [routerLink]="'/auth/register'">Register</button>
+            <a class="btn btn-link forgot-password">Forgot password</a>
+          </form>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="register-pic">
+          <img src="assets/images/register-pic.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,76 @@
+.register-section {
+  background: #f5f4f4;
+  padding-top: 235px;
+  margin-top: -135px;
+  .section-title {
+    margin-bottom: 32px;
+  }
+}
+
+.spad {
+  padding-top: 250px;
+}
+
+.register-text {
+  padding: 50px 70px 60px 70px;
+  background: #ffffff;
+  margin-right: -15px;
+  .register-form {
+    label {
+      font-size: 14px;
+      color: #9b9b9b;
+      margin-bottom: 11px;
+    }
+    input {
+      width: 100%;
+      height: 46px;
+      border: 1px solid #ebebeb;
+      padding-left: 20px;
+      font-size: 14px;
+      color: #9b9b9b;
+      margin-bottom: 18px;
+    }
+    .register-btn {
+      font-size: 16px;
+      color: #ffffff;
+      font-weight: 600;
+      width: 48%;
+      background: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(#eb3c5a),
+        to(#f67831)
+      );
+      background: -o-linear-gradient(left, #eb3c5a, #f67831);
+      background: linear-gradient(to right, #eb3c5a, #f67831);
+      border: none;
+      padding: 12px 0;
+      cursor: pointer;
+      margin-top: 30px;
+    }
+    [type="button"]:not(:disabled),
+    [type="reset"]:not(:disabled),
+    [type="submit"]:not(:disabled),
+    button:not(:disabled) {
+      cursor: pointer;
+    }
+  }
+}
+
+.register-pic {
+  margin-left: -15px;
+  img {
+    height: 502px;
+  }
+}
+
+.ml-4 {
+  margin-left: 4%;
+}
+
+.forgot-password {
+  text-align: center;
+  width: 100%;
+  padding-top: 25px;
+}

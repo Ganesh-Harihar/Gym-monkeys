@@ -24,7 +24,12 @@
           <a class="nav-link link" href="#">Contacts</a>
         </li>
         <span>
-          <button type="button" class="btn signup font-weight-bold">Sign Up Today</button>
+          <button type="button" class="btn signup font-weight-bold" [routerLink]="'/auth/register'">
+            Sign Up Today
+          </button>
+          <button type="button" class="btn signup font-weight-bold ml-2" [routerLink]="'/auth/login'">
+            Sign In
+          </button>
         </span>
       </ul>
     </div>
@@ -327,3 +332,6 @@
   </div>
   </div>
   </section>
+
+
+
