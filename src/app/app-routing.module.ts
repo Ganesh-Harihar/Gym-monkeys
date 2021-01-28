@@ -4,6 +4,7 @@ import { environment } from 'src/environments/environment';
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './shared/404.component';
 import { AuthComponent } from './auth/auth.component';
+import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
   {
@@ -18,6 +19,16 @@ const routes: Routes = [
       {
         path: '',
         loadChildren: () => import('src/app/home/home.module').then(m => m.HomeModule)
+      }
+    ]
+  },
+  {
+    path: 'about',
+    component: AboutComponent,
+    children: [
+      {
+        path: '',
+        loadChildren: () => import('src/app/about/about.module').then(m => m.AboutModule)
       }
     ]
   },
