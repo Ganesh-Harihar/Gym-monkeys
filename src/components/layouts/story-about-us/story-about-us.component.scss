@@ -1,0 +1,20 @@
+.about-pic {
+  position: relative;
+  img {
+    width: 100%;
+  }
+  .play-btn {
+    position: absolute;
+    left: 50%;
+    height: 13pc;
+    width: 5pc;
+    top: 50%;
+    -webkit-transform: translate(-41.5px, -41.5px);
+    -ms-transform: translate(-41.5px, -41.5px);
+    transform: translate(-41.5px, -41.5px);
+  }
+}
+
+a {
+  text-decoration: none;
+}

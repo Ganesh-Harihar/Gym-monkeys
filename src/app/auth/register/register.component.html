@@ -1,5 +1,5 @@
 
-<section class="register-section spad">
+<section class="register-section spad" [ngClass]="{'less-spad': fromHome == true}">
   <div class="container">
     <div class="row">
       <div class="col-lg-8">
@@ -27,8 +27,8 @@
                 <input type="password" id="confirm-password">
               </div>
             </div>
-            <button type="submit" class="register-btn">Register</button>
-            <button type="submit" class="register-btn ml-4" [routerLink]="'/auth/login'">Login</button>
+            <button type="submit" class="register-btn" [ngStyle]="{'width':'100%'}">Register</button>
+            <button type="submit" class="register-btn ml-4" [routerLink]="'/auth/login'" *ngIf="!fromHome">Login</button>
           </form>
         </div>
       </div>

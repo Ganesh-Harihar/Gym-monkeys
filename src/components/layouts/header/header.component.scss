@@ -1,0 +1,99 @@
+.image {
+  height: 55pc !important;
+  width: 100%;
+}
+
+.navbar-style {
+  position: absolute;
+  background: transparent;
+  top: 0;
+  width: 100%;
+  height: 4pc;
+  border-bottom: solid 1px whitesmoke;
+}
+
+.logo {
+  height: 90px;
+  width: 180px;
+}
+
+.ml-10 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.link {
+  color: white;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.signup {
+  color: white;
+  font-size: 18px;
+  border: solid 2px #f0574a;
+  width: 10pc;
+}
+
+.link-border {
+  :hover {
+    border-bottom: solid 2px red;
+  }
+}
+
+
+
+
+
+// second part
+.about-text {
+  padding-top: 15px;
+  padding-left: 40px;
+  h2 {
+    font-size: 40px;
+    color: #111111;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+  p {
+    color: #6b6b6b;
+    .first-para {
+      margin-bottom: 10px;
+    }
+    .second-para {
+      margin-bottom: 50px;
+    }
+  }
+}
+
+.hero-text {
+  span {
+    font-size: 14px;
+    color: #f15d44;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+  }
+  h1 {
+    font-size: 72px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 11px;
+    margin-bottom: 18px;
+  }
+  p {
+    color: #ffffff;
+    margin-bottom: 44px;
+  }
+}
+
+.bmi-text {
+  position: absolute;
+  top: 40%;
+  margin-left: 10%;
+}
+
+a {
+  text-decoration: none;
+}
