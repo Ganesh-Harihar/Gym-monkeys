@@ -10,6 +10,7 @@ import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { LayoutsModule } from 'src/components/layouts/layouts.module';
 import { GallaryComponent } from './gallary/gallary.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { GallaryComponent } from './gallary/gallary.component';
     NavGymClassesComponent,
     AboutComponent,
     HomeComponent,
-    GallaryComponent
+    GallaryComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

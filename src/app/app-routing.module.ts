@@ -7,6 +7,7 @@ import { AuthComponent } from './auth/auth.component';
 import { AboutComponent } from './about/about.component';
 import { NavGymClassesComponent } from './nav-gym-classes/nav-gym-classes.component';
 import { GallaryComponent } from './gallary/gallary.component';
+import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   {
@@ -29,6 +30,10 @@ const routes: Routes = [
   {
     path: 'gallary',
     component: GallaryComponent
+  },
+  {
+    path: 'contact',
+    component: ContactComponent
   },
   {
     path: 'auth',
