@@ -3,22 +3,26 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeModule } from './home/home.module';
 import { SharedModule } from './shared/shared.module';
 import { AuthModule } from './auth/auth.module';
-import { AboutModule } from './about/about.module';
+import { NavGymClassesComponent } from './nav-gym-classes/nav-gym-classes.component';
+import { AboutComponent } from './about/about.component';
+import { HomeComponent } from './home/home.component';
+import { LayoutsModule } from 'src/components/layouts/layouts.module';
 
 @NgModule({
   declarations: [
     AppComponent,
+    NavGymClassesComponent,
+    AboutComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HomeModule,
     SharedModule,
     AuthModule,
-    AboutModule
+    LayoutsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

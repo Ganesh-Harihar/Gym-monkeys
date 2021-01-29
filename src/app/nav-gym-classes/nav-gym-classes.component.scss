@@ -1,0 +1,117 @@
+a {
+  text-decoration: none;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.classes-timetable {
+  padding-top: 0;
+  .nav-controls {
+    text-align: center;
+    margin-bottom: 42px;
+    ul {
+      li {
+        list-style: none;
+        font-size: 16px;
+        color: #111;
+        font-weight: 600;
+        display: inline-block;
+        margin-right: 48px;
+        text-transform: uppercase;
+        -webkit-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+        cursor: pointer;
+        .active {
+          color: #f15d44;
+        }
+      }
+    }
+  }
+}
+
+.schedule-table {
+  table {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    thead {
+      tr {
+        th {
+          font-size: 16px;
+          color: #000;
+          font-weight: 600;
+          text-transform: uppercase;
+          padding: 25px 0;
+          background: #f0f0f0;
+        }
+      }
+    }
+    tbody {
+      tr {
+        border-top: 1px solid #e5e5e5;
+        span {
+          font-size: 14px;
+          font-weight: 600;
+          color: #111;
+        }
+        td {
+          width: 146px;
+          background: #fff;
+          border-right: 1px solid #e5e5e5;
+          padding: 18px 0;
+          position: relative;
+          z-index: 1;
+        }
+        // td {
+        .workout-time {
+          font-size: 16px;
+          color: #000;
+          font-weight: 600;
+          text-transform: uppercase;
+        }
+        .ts-item {
+          // -webkit-transition: all 0.4s;
+          // -o-transition: all 0.4s;
+          // transition: all 0.4s;
+          h6 {
+            font-weight: 600;
+            color: #f15d44;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+          }
+        }
+        // }
+      }
+    }
+  }
+}
+
+.schedule-table table tbody tr td .trainer-name {
+  font-size: 14px;
+  color: #6b6b6b;
+}
+
+.hover-bg:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#eb3c5a),
+    to(#f67831)
+  ) !important;
+  background: -o-linear-gradient(left, #eb3c5a, #f67831) !important;
+  background: linear-gradient(to right, #eb3c5a, #f67831) !important;
+  .trainer-name {
+    color: #fff !important;
+  }
+  h6 {
+    color: #fff !important;
+  }
+
+  .schedule-table table tbody tr span {
+    color: #fff !important;
+  }
+}

@@ -1,41 +1,56 @@
-.breadcrumb-section {
-  padding-top: 190px;
-  height: 400px;
-}
-
-.breadcrumb-text {
-  text-align: center;
-  h2 {
-    font-size: 60px;
-    color: #fff;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-  }
-  .breadcrumb-option {
-    a {
-      font-size: 16px;
-      color: #fff;
-      display: inline-block;
-      margin-right: 10px;
-      position: relative;
-      ::after {
-        position: absolute;
-        right: -10px;
-        top: 0px;
-        content: ">";
-        font-size: 21px;
-        font-family: monospace;
-      }
-    }
-    span {
-      font-size: 16px;
-      color: #bdbdbd;
-      display: inline-block;
-    }
-  }
-}
-
 a {
   text-decoration: none;
+}
+
+.about-counter-text {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#eb3c5a),
+    to(#f67831)
+  );
+  background: -o-linear-gradient(left, #eb3c5a, #f67831);
+  background: linear-gradient(to right, #eb3c5a, #f67831);
+  overflow: hidden;
+  padding: 35px 65px 15px;
+  .single-counter {
+    float: left;
+    margin-right: 180px;
+    h1 {
+      font-size: 72px;
+      color: #fff;
+      display: inline-block;
+    }
+    p {
+      color: #fff;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    span {
+      font-size: 72px;
+      color: #fff;
+      display: inline-block;
+      line-height: 80px;
+    }
+  }
+}
+
+.spad {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.award-text {
+  padding-top: 20px;
+  h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  p {
+    margin-bottom: 10px;
+  }
 }

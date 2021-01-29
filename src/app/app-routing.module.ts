@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './shared/404.component';
 import { AuthComponent } from './auth/auth.component';
 import { AboutComponent } from './about/about.component';
+import { NavGymClassesComponent } from './nav-gym-classes/nav-gym-classes.component';
 
 const routes: Routes = [
   {
@@ -14,23 +15,15 @@ const routes: Routes = [
   },
   {
     path: 'home',
-    component: HomeComponent,
-    children: [
-      {
-        path: '',
-        loadChildren: () => import('src/app/home/home.module').then(m => m.HomeModule)
-      }
-    ]
+    component: HomeComponent
   },
   {
     path: 'about',
-    component: AboutComponent,
-    children: [
-      {
-        path: '',
-        loadChildren: () => import('src/app/about/about.module').then(m => m.AboutModule)
-      }
-    ]
+    component: AboutComponent
+  },
+  {
+    path: 'classes',
+    component: NavGymClassesComponent
   },
   {
     path: 'auth',
