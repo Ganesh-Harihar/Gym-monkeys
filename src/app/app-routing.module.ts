@@ -6,6 +6,7 @@ import { NotFoundComponent } from './shared/404.component';
 import { AuthComponent } from './auth/auth.component';
 import { AboutComponent } from './about/about.component';
 import { NavGymClassesComponent } from './nav-gym-classes/nav-gym-classes.component';
+import { GallaryComponent } from './gallary/gallary.component';
 
 const routes: Routes = [
   {
@@ -24,6 +25,10 @@ const routes: Routes = [
   {
     path: 'classes',
     component: NavGymClassesComponent
+  },
+  {
+    path: 'gallary',
+    component: GallaryComponent
   },
   {
     path: 'auth',

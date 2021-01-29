@@ -9,13 +9,15 @@ import { NavGymClassesComponent } from './nav-gym-classes/nav-gym-classes.compon
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { LayoutsModule } from 'src/components/layouts/layouts.module';
+import { GallaryComponent } from './gallary/gallary.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavGymClassesComponent,
     AboutComponent,
-    HomeComponent
+    HomeComponent,
+    GallaryComponent
   ],
   imports: [
     BrowserModule,
